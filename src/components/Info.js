@@ -1,8 +1,14 @@
 const Info = () => {
     return(
-        <span>
-            Infoooo
-        </span>
+        <div>
+            <h1>
+                Infoooo
+            </h1>
+            <img src='' alt=''></img>
+            <p>
+                opis
+            </p>  
+        </div>
     )
 }
 

@@ -1,8 +1,13 @@
+import { Link } from "react-router-dom";
+
 const SurrealisticTattoos = () => {
     return(
-        <span>
-            SurrealisticTattoos
-        </span>
+        <>
+            <Link to='/tattoos'>back</Link>
+            <span>
+                SurrealisticTattoos
+            </span>
+        </>
     )
 }
 

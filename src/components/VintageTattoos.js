@@ -1,8 +1,13 @@
+import { Link } from "react-router-dom";
+
 const VintageTattoos = () => {
     return(
-        <span>
-            VintageTattoos
-        </span>
+        <>
+            <Link to='/tattoos'>back</Link>
+            <span>
+                VintageTattoos
+            </span>
+        </>
     )
 }
 
