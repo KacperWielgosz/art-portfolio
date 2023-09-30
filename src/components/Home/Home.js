@@ -1,5 +1,5 @@
-import Info from "./Info";
-import InfoLinks from "./InfoLinks";
+import Info from "../Info/Info";
+import InfoLinks from "../InfoLinks/InfoLinks";
 
 const Home = () => {
     return(

@@ -1,24 +1,24 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Tattoos from "./components/Tattoos";
-import NavBar from "./components/NavBar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Drawings from "./components/Drawings";
-import Paintings from "./components/Paintings";
-import Photography from "./components/Photography";
+import Tattoos from "./components/Tattoos/Tattoos";
+import NavBar from "./components/NavBar/NavBar";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Drawings from "./components/Drawings/Drawings";
+import Paintings from "./Paintings/Paintings";
+import Photography from "./components/Photography/Photography";
 import SurrealisticTattoos from "./components/SurrealisticTattoos";
 import VintageTattoos from "./components/VintageTattoos";
-import NotFound from "./components/NotFound";
+import NotFound from "./components/NotFound/NotFound";
 import TattooDrawings from "./components/TattooDrawings";
 import SurrealisticDrawings from "./components/SurrealisticDrawings";
 import PhotoSeriesOne from "./components/PhotoSeriesOne";
 import PhotoSeriesTwo from "./components/PhotoSeriesTwo";
 import PhotoSeriesThree from "./components/PhotoSeriesThree";
-import Container from "./components/Container";
+import Container from "./components/Container/Container";
 import PaintingSeriesOne from "./components/PaintingSeriesOne";
 import PaintingSeriesTwo from "./components/PaintingSeriesTwo";
-import Contact from "./components/Contact";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
