@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Drawings from "./components/Drawings/Drawings";
-import Paintings from "./Paintings/Paintings";
+import Paintings from "./components/Paintings/Paintings";
 import Photography from "./components/Photography/Photography";
 import SurrealisticTattoos from "./components/SurrealisticTattoos";
 import VintageTattoos from "./components/VintageTattoos";
@@ -24,7 +24,6 @@ function App() {
   return (
     <>
       <NavBar />
-      <Container>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tattoos" element={<Tattoos />}/>
@@ -44,7 +43,6 @@ function App() {
           <Route path="/contact" element={<Contact />}/>
           <Route path="*" element={<NotFound />}/>
         </Routes>
-      </Container>
     </>
 
   );
