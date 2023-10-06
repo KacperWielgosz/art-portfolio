@@ -1,10 +1,12 @@
 .Navbar {
     list-style: none;
     display: flex;
+    flex-direction: row-reverse;
     width: 100%;
 }
 
 .list {
     display: flex;
     margin: 10px;
+    color: white;
 }

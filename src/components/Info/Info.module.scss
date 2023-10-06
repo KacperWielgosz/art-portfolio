@@ -1,15 +1,7 @@
-.wrapper {
-    font-family: 'bodoni-moda';
-    width: 100vw;
-}
-
-.name{
-    font-size: 170px;
-}
-
-.surname {
+.example {
+    width: 40vw;
+    height: 40vh;
+    background-color: red;
     display: flex;
-    flex-direction: row;
-    font-size: 250px;
-    margin-top: -70px ;
+    justify-content: center;
 }

@@ -1,37 +1,7 @@
-.staticdivone {
-    height: 140px;
-    width: 140px;
-    background-color: white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.staticdivtwo {
-    height: 100px;
-    width: 100px;
-    background-color: black;
-    border-top-left-radius: 90%;
-    border-bottom-right-radius: 90%;
-    rotate: 45deg;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 .motiondot {
     border-radius: 50%;
     height: 30px;
     width: 30px;
-    rotate: -45deg;
     background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
-.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

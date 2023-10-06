@@ -27,12 +27,8 @@ const Mouse = () => {
 
     return (
         
-            <div className={styles.wrapper}>
-                <div className={styles.staticdivone}>
-                    <div className={styles.staticdivtwo}>
-                        <motion.div className={styles.motiondot}  animate={ {x: mousePosCalcX -15, y: mousePosCalcY} } />
-                    </div>
-                </div>
+            <div>
+                <motion.div className={styles.motiondot}  animate={ {x: mousePosCalcX -15, y: mousePosCalcY} } />
             </div>
     );
 }
