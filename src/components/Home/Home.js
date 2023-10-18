@@ -3,7 +3,7 @@ import InfoLinks from "../InfoLinks/InfoLinks";
 
 const Home = () => {
     return(
-    <>        
+    <>
       <Info />
       <InfoLinks />
     </>

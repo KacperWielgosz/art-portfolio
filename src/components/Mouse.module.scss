@@ -1,7 +1,19 @@
 .motiondot {
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
+    height: 4vw;
+    width: 4vw;
     background-color: white;
+    position: absolute;
+    top: 53%;
+    left: 68%
 
+}
+
+.logo {
+    width: 100%;
+    position: relative
+}
+
+.wrapper {
+    position: relative;
 }

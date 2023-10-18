@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import styles from './InfoLinks.module.scss'
 
 const InfoLinks = () => {
   return(
     <>
-        <ul>
+        <ul className={styles.list}>
             <li>
                 <Link to="/tattoos">Tattoos</Link>
             </li>

@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import styles from "./Mouse.module.scss";
+import logo from '../pictures/MainLogo.png'
 
 const Mouse = () => {
-    const [mousePos, setMousePos] = useState({x: 0, y: 0});
+    const [mousePos, setMousePos] = useState({x: 750, y: 0});
 
     useEffect(() => {
         const handleMouseMove = (event) => {
@@ -20,15 +21,18 @@ const Mouse = () => {
         };
     }, []);
 
-    const mousePosCalcY =  mousePos.y * 0.03 ;
-    const mousePosCalcX =  mousePos.x * 0.02 ;
+    const mousePosCalcY =  mousePos.y * 0.05 ;
+    const mousePosCalcX =  mousePos.x * 0.05 ;
 
-    console.log(mousePos.x, mousePosCalcX)
+    //console.log(mousePos.x, mousePosCalcX)
 
     return (
         
-            <div>
-                <motion.div className={styles.motiondot}  animate={ {x: mousePosCalcX -15, y: mousePosCalcY} } />
+            <div className={styles.wrapper}>
+                <img className={styles.logo} src={logo}  alt="logo" />
+                <div>
+                    <motion.div className={styles.motiondot}  animate={ {x: mousePosCalcX -15, y: mousePosCalcY} } />
+                </div>
             </div>
     );
 }
